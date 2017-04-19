@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "https://agapovd.ru"
 defaultcontentlanguage = "ru"
-languageCode = "ru-Ru"
+languageCode = "ru"
 title = "Блог Дмитрия Агапова"
 author = "Дмитрий Агапов"
 # Shown in the side menu
