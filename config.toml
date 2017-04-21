@@ -1,4 +1,4 @@
-baseurl = "https://agapovd.ru"
+baseurl = "https://agapovd.ru/"
 defaultcontentlanguage = "ru"
 languageCode = "ru"
 title = "Блог Дмитрия Агапова"

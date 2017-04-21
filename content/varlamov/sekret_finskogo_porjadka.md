@@ -4,7 +4,7 @@ title = "Секрет финского порядка..."
 comments = true
 description = ""
 tags = ["Вода", "Выборг", "Грязь", "Лаппеэнранта", "Проект Граница", "Россия", "Финляндия"]
-topics = ["Блог Ильи Варамова"]
+topics = ["Блог Ильи Варламова"]
 +++
 
 *<p>Автор: Илья Варламов <a href="http://varlamov.ru/2337745.html" target="_blank">(Оригинал)</a></p>*
@@ -44,13 +44,13 @@ topics = ["Блог Ильи Варамова"]
 09\. С каждой крыши вся вода собирается и отводится.
 {{% fluid_img "http://varlamov.me/2017/viborg_lappe_voda/09.jpg" %}}
 
-10\. 
+10\.
 {{% fluid_img "http://varlamov.me/2017/viborg_lappe_voda/10.jpg" %}}
 
-11\. 
+11\.
 {{% fluid_img "http://varlamov.me/2017/viborg_lappe_voda/11.jpg" %}}
 
-12\. 
+12\.
 {{% fluid_img "http://varlamov.me/2017/viborg_lappe_voda/12.jpg" %}}
 
 13\. А часто трубы сразу уходят в канализацию.
