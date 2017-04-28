@@ -5,12 +5,32 @@ backend:
   name: github
   repo: dmitrij-a/agapovd.ru-src # Path to your Github repository
   branch: master # Branch to update
-  site_domain: agapovd.netlify.com # Your Netlify site address if different from host
+  site_domain: agapovd.ru # Your Netlify site address if different from host
 
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "publishdate", widget: "datetime"}
+      # - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Weight", name: "weight", widget: "number", default: 0}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Topics", name: "topics", widget: "list"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Comments", name: "comments", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "repost" # Used in routes, e.g. /admin/collections/blog
+    label: "Repost" # Used in the UI
+    folder: "content/repost" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
