@@ -1,0 +1,31 @@
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+backend:
+  name: github
+  repo: dmitrij-a/agapovd.ru-src # Path to your Github repository
+  branch: master # Branch to update
+  site_domain: agapovd.netlify.com # Your Netlify site address if different from host
+
+collections:
+  - name: "post" # Used in routes, e.g. /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "publishdate", widget: "datetime"}
+      # - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Weight", name: "weight", widget: "number", default: 0}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "string", default: "true"}
+      - {label: "Tags", name: "tags", widget: "string", default: "[\"\"]"}
+      - {label: "Topics", name: "topics", widget: "string", default: "[\"\"]"}
+      - {label: "Description", name: "description", widget: "string", default: " "}
+      - {label: "Comments", name: "comments", widget: "string", default: "true"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
