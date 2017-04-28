@@ -23,8 +23,8 @@ collections:
       - {label: "Weight", name: "weight", widget: "number", default: 0}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Draft", name: "draft", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Topics", name: "topics", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Topics", name: "topics", widget: "list"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Comments", name: "comments", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
