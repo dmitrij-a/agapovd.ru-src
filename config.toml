@@ -1,5 +1,4 @@
 baseurl = "https://agapovd.ru/"
-defaultcontentlanguage = "ru"
 languageCode = "ru"
 title = "Блог Дмитрия Агапова"
 author = "Дмитрий Агапов"
@@ -37,21 +36,28 @@ theme = "blackburn"
     url = "/"
 
   [[menu.main]]
-    name = "Posts"
+    name = "Мои записи"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
     url = "/post/"
 
+  [[menu.main]]
+    name = "Репосты"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "repost"
+    url = "/repost/"
+
   #[[menu.main]]
-  # name = "News"
+  # name = "Новости"
   # pre = "<i class='fa fa-newspaper-o fa-fw'></i>"
   # weight = 3
   # identifier = "news"
   # url = "/news/"
 
   [[menu.main]]
-    name = "Topics"
+    name = "Разделы"
     pre = "<i class='fa fa-folder fa-fw'></i>"
     weight = 4
     url = "/topics/"
