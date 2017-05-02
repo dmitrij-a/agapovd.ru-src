@@ -5,7 +5,6 @@ comments = true
 description = ""
 tags = ["Австрия", "Вена", "Район"]
 topics = ["Блог Ильи Варламова"]
-weight = 2
 +++
 
 *<p>Автор: Илья Варламов <a href="http://varlamov.ru/2345843.html" target="_blank">(Оригинал)</a></p>*

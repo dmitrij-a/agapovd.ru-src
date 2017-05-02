@@ -5,7 +5,6 @@ comments = true
 description = ""
 tags = ["Берлин", "Германия", "Двор", "Общественное пространство"]
 topics = ["Блог Ильи Варламова"]
-weight = 3
 +++
 
 *<p>Автор: Илья Варламов <a href="http://varlamov.ru/1592678.html" target="_blank">(Оригинал)</a></p>*
