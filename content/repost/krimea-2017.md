@@ -4,7 +4,7 @@ title = "Крым. Он просто строит мост к тёще"
 comments = true
 description = ""
 tags = [ "Крым", "Крымский мост" ]
-topics = [ "Путешествия", "Фотографии", "Блог" ]
+topics = ["Репосты"]
 +++
 
 *<p>Автор: Александр Горный блогер, Крым <a href="http://echo.msk.ru/blog/amountain/1960150-echo/" target="_blank">(Оригинал)</a></p>*

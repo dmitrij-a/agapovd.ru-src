@@ -28,15 +28,15 @@ theme = "blackburn"
 
 [menu]
   # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
+  #[[menu.main]]
+  #  name = "Home"
+  #  pre = "<i class='fa fa-home fa-fw'></i>"
+  #  weight = 1
+  #  identifier = "home"
+  #  url = "/"
 
   [[menu.main]]
-    name = "Мои записи"
+    name = "Мой Блог"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
@@ -50,26 +50,26 @@ theme = "blackburn"
     url = "/repost/"
 
   #[[menu.main]]
-  # name = "Новости"
-  # pre = "<i class='fa fa-newspaper-o fa-fw'></i>"
-  # weight = 3
-  # identifier = "news"
-  # url = "/news/"
+  #  name = "Новости"
+  #  pre = "<i class='fa fa-newspaper-o fa-fw'></i>"
+  #  weight = 3
+  #  identifier = "news"
+  #  url = "/news/"
 
   [[menu.main]]
-    name = "Разделы"
+    name = "Все Разделы"
     pre = "<i class='fa fa-folder fa-fw'></i>"
     weight = 4
     url = "/topics/"
 
   [[menu.main]]
-    name = "Tags"
+    name = "Тэги"
     pre = "<i class='fa fa-tags fa-fw'></i>"
     weight = 5
     url = "/tags/"
 
   [[menu.main]]
-    name = "About"
+    name = "О Сайте"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 6
     identifier = "about"
