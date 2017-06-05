@@ -13,6 +13,22 @@ topics = [ "Путешествия", "Блог" ]
 
 <!--more-->
 
+<div style="height: 180px;" id="mapid"></div>
+
+<script type="text/javascript">
+var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+</script>
+
+<script type="text/javascript">
+    L.tileLayer('https://api.mapbox.com/styles/v1/dagapof/cj2cfjilv008o2spj2thl5bg6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFnYXBvZiIsImEiOiJjajJjZWZyMGEwMDJtMnFwYTFlbm1wcXAxIn0.BtYIdLb7b3uWjinn1UEWKQ', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
+}).addTo(mymap);
+
+</script>
+
+
+
+
 01\. Вид на Горьковское водохранилище из центра Юрьевца. На дальнем плане, заметны острова архипелага Асафовы горы. Одна из легенд утверждает, что на этих возвышенностях была стоянка разбойников, грабивших проходящие по Волге корабли, под предводительством атамана Асафа.
 {{% fluid_img "http://i.imgur.com/lBg8f7z.jpg" %}}
 
