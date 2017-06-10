@@ -1,0 +1,49 @@
+<div style="height: 230px;" id="mapid"></div>
+
+<script type="text/javascript">
+
+{{ with .Get "imgs" }}
+var imgs = {{ split . ";" }};
+{{ end }}
+
+{{ with .Get "coords" }}
+var coords_init = {{ split . ";" }};
+{{ end }}
+
+var coords = [];
+
+for (var i=0; i<coords_init.length; i++) {
+    coords.push(coords_init[i].split(','))
+};
+
+window.onload=mapInit;
+
+var maxlat = 0;
+var minlat = 360;
+var maxlon = 0;
+var minlon = 360;
+var mapcenter = [0,0];
+var centerLat;
+var centerLon;
+
+
+function mapInit(){
+
+    var mymap = L.map('mapid');
+    L.tileLayer('https://api.mapbox.com/styles/v1/dagapof/cj2cfjilv008o2spj2thl5bg6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFnYXBvZiIsImEiOiJjajJjZWZyMGEwMDJtMnFwYTFlbm1wcXAxIn0.BtYIdLb7b3uWjinn1UEWKQ', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
+        }).addTo(mymap);
+
+    mymap.fitBounds( coords );
+
+    for (var i=0; i<coords.length; i++) {
+        var im_src = document.getElementById(imgs[i]).src;
+        var tooltip = `<a href=#${imgs[i]}> <img height=100% width=100% src=${im_src} >  </a>`;
+
+        L.marker([coords[i][0], coords[i][1]]).addTo(mymap).bindPopup(tooltip);
+    };
+
+} ;
+
+
+</script>

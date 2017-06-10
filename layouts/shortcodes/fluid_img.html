@@ -1,7 +1,10 @@
 {{ if .IsNamedParams }}
-<div class="{{ if .Get "class" }}{{ .Get "class" }}{{ else }}pure-u-1{{ end }}">
-  <img class="pure-img" src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }}>
-</div>
+
+<img class="pure-img" src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }}
+
+{{ if (.Get "id") }}id="{{ with .Get "id"}}{{.}}{{else}}{{ end }}"{{ end }}  >
+
 {{ else }}
-<img class="pure-img" src="{{ index .Params 0 }}" alt="">
+
+<img class="pure-img" src="{{ index .Params 0 }}" alt="" >
 {{ end }}

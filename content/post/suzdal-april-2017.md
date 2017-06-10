@@ -7,170 +7,151 @@ tags = [ "Кинешма", "Суздаль", "Юрьевец", "Плёс", "Пу
 topics = [ "Путешествия", "Блог" ]
 +++
 
-{{% fluid_img "http://i.imgur.com/grxLkfH.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/grxLkfH.jpg" id="img00" %}}
 
 Путешествие выходного дня по городам Верхнего Поволжья через города Юрьевец, Кинешма, Плёс, Суздаль. Поездка началась с г. Юрьевец. 
 
 <!--more-->
 
-<div style="height: 230px;" id="mapid"></div>
-
-<script type="text/javascript">
-var mymap = L.map('mapid').setView([57.0, 41.76375], 7);
-var yur = L.marker([57.2863, 43.0805]).addTo(mymap);
-yur.bindPopup("<b>Юрьевец</b>");
-var kin = L.marker([57.4454, 42.1683]).addTo(mymap);
-kin.bindPopup("<b>Кинешма</b>");
-var ple = L.marker([57.458, 41.5227]).addTo(mymap);
-ple.bindPopup("<b>Плёс</b>");
-var suz = L.marker([56.4242, 40.447]).addTo(mymap);
-suz.bindPopup("<b>Суздаль</b>");
-</script>
-
-<script type="text/javascript">
-    L.tileLayer('https://api.mapbox.com/styles/v1/dagapof/cj2cfjilv008o2spj2thl5bg6/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFnYXBvZiIsImEiOiJjajJjZWZyMGEwMDJtMnFwYTFlbm1wcXAxIn0.BtYIdLb7b3uWjinn1UEWKQ', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>'
-}).addTo(mymap);
-
-</script>
+{{< map imgs="img02;img04;img06;img07;img10;img12;img15;img16;img27;img29;img30;img35;img36;img38;img40;img45" coords="57.3131,43.1105;57.3145,43.1092;57.3177,43.11;57.4419,42.1692;57.4455,42.1667;57.4605,41.5123;57.4597,41.5217;57.458,41.5227;57.4571,41.5173;56.4192,40.4289;56.4166,40.4372;56.418,40.4379;56.4315,40.4402;56.4227,40.4472;56.4243,40.447;56.4249,40.5272" >}}
 
 01\. Вид на Горьковское водохранилище из центра Юрьевца. На дальнем плане, заметны острова архипелага Асафовы горы. Одна из легенд утверждает, что на этих возвышенностях была стоянка разбойников, грабивших проходящие по Волге корабли, под предводительством атамана Асафа.
-{{% fluid_img "http://i.imgur.com/lBg8f7z.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/lBg8f7z.jpg" id="img01" %}}
 
 02\. Центральная часть города расположена ниже и многие дома стоят как-бы на пригорке. 
-{{% fluid_img "http://i.imgur.com/VKgcwgM.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/VKgcwgM.jpg" id="img02" %}}
 
 03\. Местные жители приспособились к таким неудобствам.
-{{% fluid_img "http://i.imgur.com/dqbAZqD.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/dqbAZqD.jpg" id="img03" %}}
 
 04\. Центр города. 
-{{% fluid_img "http://i.imgur.com/grxLkfH.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/grxLkfH.jpg" id="img04" %}}
 
 05\. 
-{{% fluid_img "http://i.imgur.com/CJQ99fq.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/CJQ99fq.jpg" id="img05" %}}
 
 06\. Юрьевец - родина режиссёра Андрея Тарковского. Здесь же находится дом-музей и сквер, посвящённый Тарковскому. Также, в городе одна из улиц названа в честь режиссёра. 
-{{% fluid_img "http://i.imgur.com/WYtYzg5.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/WYtYzg5.jpg" id="img06" %}}
 
 07\. Город Кинешма. Расположен примерно на 50 м выше по течению от Юрьевца. Является вторым в Ивановской области по численности населения и промышленному развитию. Первое упоминание 1429 г.
-{{% fluid_img "http://i.imgur.com/CkJmogf.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/CkJmogf.jpg" id="img07" %}}
 
 08\. Троицко-Успенский кафедральный собор (вид с набережной р. Волга). Самая ранняя постройка датирована 1745-м годом. 
-{{% fluid_img "http://i.imgur.com/MvIthbw.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/MvIthbw.jpg" id="img08" %}}
 
 09\. Волжский бульвар. 
-{{% fluid_img "http://i.imgur.com/43CxJaR.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/43CxJaR.jpg" id="img09" %}}
 
 10\. 
-{{% fluid_img "http://i.imgur.com/pSZCp4u.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/pSZCp4u.jpg" id="img10" %}}
 
 11\. Исторический центр г. Кинешма. 
-{{% fluid_img "http://i.imgur.com/THg0lPl.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/THg0lPl.jpg" id="img11" %}}
 
 12\. Ближе к вечеру прибыл в Плёс, расположенный ещё на 40 км. выше по течению р. Волга. Несмотря на то, что Плёс считается курортным городком, а также туристическим центром Ивановской области, он живёт своей жизнью. Магазинчики и лавки на центральной аллее закрываются уже около 8-ми вечера, а улицы начинают постепенно пустеть…
-{{% fluid_img "http://i.imgur.com/P61JZiq.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/P61JZiq.jpg" id="img12" %}}
 
 13\. 
-{{% fluid_img "http://i.imgur.com/pcVRhco.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/pcVRhco.jpg" id="img13" %}}
 
 14\. 
-{{% fluid_img "http://i.imgur.com/9Uvb4Rc.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/9Uvb4Rc.jpg" id="img14" %}}
 
 15\. Гора Левитана. Место, откуда великий художник писал свои знаменитые картины. 
-{{% fluid_img "http://i.imgur.com/7EDmz8b.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/7EDmz8b.jpg" id="img15" %}}
 
 16\. В Плёсе больше всего запомнились своей ухоженностью простые частные дома. Вроде бы ничего особенного, просто подправлены, приведены в порядок и подкрашены, но создаётся приятное впечатление. 
-{{% fluid_img "http://i.imgur.com/TqGb1ZU.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/TqGb1ZU.jpg" id="img16" %}}
 
 17\. 
-{{% fluid_img "http://i.imgur.com/rgFyKgx.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/rgFyKgx.jpg" id="img17" %}}
 
 18\. 
-{{% fluid_img "http://i.imgur.com/sFZrMOo.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/sFZrMOo.jpg" id="img18" %}}
 
 19\. 
-{{% fluid_img "http://i.imgur.com/5640TOW.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/5640TOW.jpg" id="img19" %}}
 
 20\. 
-{{% fluid_img "http://i.imgur.com/HAkpICa.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/HAkpICa.jpg" id="img20" %}}
 
 21\.
-{{% fluid_img "http://i.imgur.com/SLNPawv.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/SLNPawv.jpg" id="img21" %}}
 
 22\.
-{{% fluid_img "http://i.imgur.com/jt8yjaM.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/jt8yjaM.jpg" id="img22" %}}
 
 23\.
-{{% fluid_img "http://i.imgur.com/ydCCMGn.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/ydCCMGn.jpg" id="img23" %}}
 
 24\.
-{{% fluid_img "http://i.imgur.com/OtO4fYL.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/OtO4fYL.jpg" id="img24" %}}
 
 25\.
-{{% fluid_img "http://i.imgur.com/jancP6f.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/jancP6f.jpg" id="img25" %}}
 
 26\.
-{{% fluid_img "http://i.imgur.com/y6t1iWz.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/y6t1iWz.jpg" id="img26" %}}
 
 27\. Тропинка с интересным названием - "Спуск с горы Свободы".
-{{% fluid_img "http://i.imgur.com/YyyvGxr.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/YyyvGxr.jpg" id="img27" %}}
 
 28\. Дальше был Суздаль (что странно, до сих пор нет единого мнения, Суздаль - это он или она. Будем считать, что город Суздаль, следовательно - он). 
-{{% fluid_img "http://i.imgur.com/wWxDyzf.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/wWxDyzf.jpg" id="img28" %}}
 
 29\. Ильин луг. 
-{{% fluid_img "http://i.imgur.com/FrBsoHf.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/FrBsoHf.jpg" id="img29" %}}
 
 30\. Река Каменка и музей деревянного зодчества (на заднем плане). 
-{{% fluid_img "http://i.imgur.com/9ObWVyN.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/9ObWVyN.jpg" id="img30" %}}
 
 31\.
-{{% fluid_img "http://i.imgur.com/R1sWDq2.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/R1sWDq2.jpg" id="img31" %}}
 
 32\. Собственно, сама, Ильинская церковь (Церковь Ильи Пророка на Ивановой горе). Расположена в излучине реки Каменка. Каменная Ильинская церковь возведена в 1744 году на месте деревянной. Колокольня и трапезная были полностью восстановлены в 2010 году.
-{{% fluid_img "http://i.imgur.com/3jh2dgx.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/3jh2dgx.jpg" id="img32" %}}
 
 33\. Ильинская церковь. Ананий Фёдоров пишет, что на горе в языческие времена стояло божество, называемое Иваном Купалой. 
-{{% fluid_img "http://i.imgur.com/aPPRhhM.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/aPPRhhM.jpg" id="img33" %}}
 
 34\. Древний план г. Суздаль времён Владимиро-Суздальского княжества. Множество монастырей и крепостных стен на валах построенных вдоль берегов реки Каменка.
-{{% fluid_img "http://i.imgur.com/ozibNT6.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/ozibNT6.jpg" id="img34" %}}
 
 35\. Экспонат из экспозиции музея архирейских палат в суздальском кремле - Иорданская сень. Уникальный памятник древнерусского искусства, относящийся к концу XVII века. Изготовлена по велению первого суздальского митрополита - Иллариона. Обычно сень весь год хранилась в разобранном виде и собиралась только на крещение.
-{{% fluid_img "http://i.imgur.com/d5Xzhsx.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/d5Xzhsx.jpg" id="img35" %}}
 
 36\. Покровский женский монастырь.  Основан в 1364 году при князе Дмитрии Константиновиче. В XVI веке,  монастырь превратился в место заточения постриженных в монахини представительниц аристократических фамилий. В XVI—XVII столетиях монастырь был одним из крупнейших на Руси. В настоящее время, это  действующий монастырь. На фотографии можно заметить избы-кельи построеные заново в 1970-х годах на месте обветшавших старых домов.
-{{% fluid_img "http://i.imgur.com/aVjC31W.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/aVjC31W.jpg" id="img36" %}}
 
 37\. Дом, в котором проходили съёмки филма "Женитьба Бальзаминова". В настоящий момент является обычным жилым домом. 
-{{% fluid_img "http://i.imgur.com/ynAxcdo.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/ynAxcdo.jpg" id="img37" %}}
 
 38\.
-{{% fluid_img "http://i.imgur.com/uKGed7m.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/uKGed7m.jpg" id="img38" %}}
 
 39\. Удалось забраться на самую высокую точку в г. Суздаль -  Преподобенскую колокольню. Высота около 70 метров. Отсюда открывается отличный вид на ближайшие окрестности. 
-{{% fluid_img "http://i.imgur.com/1yk8AjC.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/1yk8AjC.jpg" id="img39" %}}
 
-
-40\. Вид на Покровский женский монастырь.{{% fluid_img "http://i.imgur.com/26ELmX8.jpg" %}}
+40\. Вид на Покровский женский монастырь.
+{{% fluid_img src="http://i.imgur.com/26ELmX8.jpg" id="img40" %}}
 
 41\. Центр г. Суздаль. Ул. Ленина (быв. Ярославская) слева и ул. Старая справа. По центру - Лазаревская церковь, первое упоминание в XV-м веке. 
-{{% fluid_img "http://i.imgur.com/TpzVK8c.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/TpzVK8c.jpg" id="img41" %}}
 
 42\. Несмотря на то, что высота колокольни "всего" около 70-ти метров, подъём на неё по сила только крепким духом…
-{{% fluid_img "http://i.imgur.com/wbY1tVB.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/wbY1tVB.jpg" id="img42" %}}
 
 43\.
-{{% fluid_img "http://i.imgur.com/yZgya3s.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/yZgya3s.jpg" id="img43" %}}
 
 44\. Рядом с Суздалем находится посёлок Кидекша, некогда, пригород Суздаля. Здесь расположена одна из старейших, посторенных на Руси церквей - во имя мучеников Бориса и Геба, на реке Нерль. Год постройки - 1152.
-{{% fluid_img "http://i.imgur.com/3Coiu8C.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/3Coiu8C.jpg" id="img44" %}}
 
 45\. На белокаменных стенах сохранились древние рисунки. 
-{{% fluid_img "http://i.imgur.com/YSqF4uZ.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/YSqF4uZ.jpg" id="img45" %}}
 
 46\.
-{{% fluid_img "http://i.imgur.com/bo6u3XF.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/bo6u3XF.jpg" id="img46" %}}
 
 47\.
-{{% fluid_img "http://i.imgur.com/WOmkQQb.jpg" %}}
+{{% fluid_img src="http://i.imgur.com/WOmkQQb.jpg" id="img47" %}}

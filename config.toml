@@ -69,13 +69,6 @@ theme = "blackburn"
     url = "/tags/"
 
   [[menu.main]]
-    name = "О Сайте"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 6
-    identifier = "about"
-    url = "/about/"
-
-  [[menu.main]]
     name = "Нелли Лисица"
     pre = "<i class='fa fa-external-link-square fa-fw'></i>"
     weight = 7
