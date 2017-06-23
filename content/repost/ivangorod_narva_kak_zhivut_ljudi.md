@@ -252,12 +252,12 @@ PS Факт в Ивангороде есть проблемы и много, н�
 
 Кстати, по этому поводу посмотрите новое видео!
 
-<iframe allowfullscreen="" class="lj_embedcontent" frameborder="0" height="480" name="embed_10761149_193696" src="http://l.lj-toys.com/?auth_token=sessionless%3A1498251600%3Aembedcontent%3A10761149%26193696%26%260%26youtube%26e9c9GCwfttY%3A55a652067a746b66122a3b71ae35d01a4a23e911&amp;source=youtube&amp;vid=e9c9GCwfttY&amp;moduleid=193696&amp;preview=0&amp;journalid=10761149&amp;noads=" width="854"></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/e9c9GCwfttY" frameborder="0" allowfullscreen></iframe>
 
 И на канал <a href="https://www.youtube.com/c/ivarlamov"><b>не забудьте подписаться</b></a> ;)
 
 А вот предыдущие видео из Нарвы и Ивангорода, если ещё не успели оценить:
 
-<iframe allowfullscreen="" class="lj_embedcontent" frameborder="0" height="480" name="embed_10761149_193697" src="http://l.lj-toys.com/?auth_token=sessionless%3A1498251600%3Aembedcontent%3A10761149%26193697%26%260%26youtube%267wqEsSDm8hY%3Ab735c20dcf559692cb16fcf57f00fa50f2fd92c8&amp;source=youtube&amp;vid=7wqEsSDm8hY&amp;moduleid=193697&amp;preview=0&amp;journalid=10761149&amp;noads=" width="854"></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/7wqEsSDm8hY" frameborder="0" allowfullscreen></iframe>
 
-<iframe allowfullscreen="" class="lj_embedcontent" frameborder="0" height="480" name="embed_10761149_193698" src="http://l.lj-toys.com/?auth_token=sessionless%3A1498251600%3Aembedcontent%3A10761149%26193698%26%260%26youtube%26xM9G20o4llo%3A6f9617f501056b4f07d6e088fb4323d6cfd45174&amp;source=youtube&amp;vid=xM9G20o4llo&amp;moduleid=193698&amp;preview=0&amp;journalid=10761149&amp;noads=" width="854"></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/xM9G20o4llo" frameborder="0" allowfullscreen></iframe>
