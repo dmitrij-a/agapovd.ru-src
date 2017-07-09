@@ -238,7 +238,7 @@ topics = ["Блог Ильи Варламова"]
 {{% fluid_img "http://varlamov.me/2017/g20protest2/71.jpg" %}}
 
 Видео ночных беспорядков.
-<iframe allowfullscreen="" class="lj_embedcontent" frameborder="0" height="480" name="embed_10761149_202680" src="http://l.lj-toys.com/?auth_token=sessionless%3A1499540400%3Aembedcontent%3A10761149%26202680%26%260%26youtube%26wA3LTJ2SEnM%3Af2fb3b3fb44b88aebae6e4e9917e631e638dc66a&amp;source=youtube&amp;vid=wA3LTJ2SEnM&amp;moduleid=202680&amp;preview=0&amp;journalid=10761149&amp;noads=" width="853"></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/wA3LTJ2SEnM" frameborder="0" allowfullscreen></iframe>
 
 72\. В сегодняшнем отчете полиция заявила, что во вчерашних столкновениях с протестующими пострадали 111 полицейских. Всего было задержано 44 человека. Точное количество пострадавших среди митингующих неизвестно.
 {{% fluid_img "http://varlamov.me/2017/g20protest2/72.jpg" %}}
