@@ -7,7 +7,7 @@
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   <!-- CSS -->
-  {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/" }}
+  {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/" }}
   <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
 
   {{ "<!--[if lte IE 8]>" | safeHTML }}
@@ -27,12 +27,12 @@
   <link rel="stylesheet" href="/css/blackburn.css">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
-  <!-- Leaflet -->
+   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
   crossorigin=""/>
@@ -42,7 +42,7 @@
   crossorigin=""></script>
 
   <!-- ExifJS -->
-  <script src="{{ "js/exif.js" | absURL }}"></script>
+ <!--  <script src="{{ "js/exif.js" | absURL }}"></script> -->
 
   <!-- RSS -->
   {{ if .RSSLink }}
@@ -50,8 +50,11 @@
   {{ end }}
 
   {{ with .Site.Params.highlightjs }}
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/{{ . }}.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ . }}.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  {{ range $.Site.Params.highlightjs_extra_languages }}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
+  {{ end }}
   <script>hljs.initHighlightingOnLoad();</script>
   {{ end }}
 
