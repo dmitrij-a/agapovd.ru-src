@@ -3,6 +3,12 @@
 
     <!-- SNS microblogging -->
 
+    {{ with .Site.Social.link1 }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="{{ . }}" target="_blank"><i class="fa fa-external-link-square fa-fw"></i>Ghost-Блог</a>
+    </li>
+    {{ end }}
+
     {{ with .Site.Social.vk }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://vk.com/{{ . }}" target="_blank"><i class="fa fa-vk fa-fw"></i>VKontakte</a>

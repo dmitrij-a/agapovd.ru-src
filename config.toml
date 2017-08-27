@@ -85,6 +85,7 @@ theme = "blackburn"
   # Link your social networking accounts to the side menu
   # by entering your username or ID.
 
+  link1 = "http://news.agapovd.ru"
   # SNS microblogging
   vk = "dmitri_a"
   twitter = "Agapof"

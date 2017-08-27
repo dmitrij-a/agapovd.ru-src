@@ -4,7 +4,7 @@ title = "G20: Добро пожаловать в ад!"
 comments = true
 description = ""
 tags = ["#1000gestalten", "#allesallen", "#g20hh", "#nog20", "#nog20en", "Беспорядки", "Гамбург", "Германия", "Протест", "Саммит"]
-topics = ["Блог Ильи Варламова"]
+topics = ["Блог Ильи Варламова", "Репосты"]
 +++
 
 *<p>Автор: Илья Варламов <a href="http://varlamov.ru/2456285.html" target="_blank">(Оригинал)</a></p>*
