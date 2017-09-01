@@ -3,8 +3,8 @@ date = "2017-08-15T06:00:00+03:00"
 title = "Что такое Docker? Разбор Linux-контейнеров"
 comments = true
 description = "Краткое введение в легковесные, портабельные и гибкие Docker-контейнеры и почему разработчики их любят"
-tags = ["Docker", "LXC", "Linux контейнеры"]
-topics = ["Переводы", "Репосты", "IT-Технологии"]
+tags = ["Docker", "LXC", "Linux контейнеры", "IT", "IT-Технологии"]
+topics = ["Переводы", "Репосты"]
 +++
 
 *Перевод статьи "What is Docker? Linux containers explained" ([infoworld.com](http://www.infoworld.com/article/3204171/linux/what-is-docker-linux-containers-explained.html))*
