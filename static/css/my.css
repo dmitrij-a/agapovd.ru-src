@@ -1,0 +1,11 @@
+/*
+The content `<div>` is where all your content goes.
+From side-menu.css
+*/
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 900px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}

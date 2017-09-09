@@ -3,7 +3,13 @@
 
     <!-- SNS microblogging -->
 
-    {{ with .Site.Social.link1 }}
+    {{ with .Site.Social.fpsiholog }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="{{ . }}" target="_blank"><i class="fa fa-external-link-square fa-fw"></i>Нелли Лисица</a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Social.ghost }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="{{ . }}" target="_blank"><i class="fa fa-external-link-square fa-fw"></i>Ghost-Блог</a>
     </li>
